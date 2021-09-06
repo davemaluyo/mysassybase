@@ -1,5 +1,5 @@
-# [Dave's Sassy Base]
+# My Sassy Base
 
 A simple sass based front-end starter framework for building custom web sites from scratch.
 
-[View Demo] 
+[View Demo] (https://davemaluyo.github.io/mysassybase/)
