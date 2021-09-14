@@ -1,11 +1,110 @@
+/* GLOBAL RESETS */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 /*
 
 TABLE OF CONTENTS
 
+# GLOBAL RESET
 # BASE TYPOGRAPHY
 # BUTTONS
 
 */
+/* BASE TEXT COLORS */
 body {
-  background: orange;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: black;
+}
+
+/* BASE TEXT FONTS */
+body {
+  font-family: "Kaisei Opti", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Inter", sans-serif;
+}
+
+/* BASE TYPOGRAPHY */
+body {
+  font-size: 100%;
+  line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0.5em 0;
+}
+
+/* TYPOGRAPHIC SCALE (TRADITIONAL) */
+h1 {
+  font-size: 3em;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 2.25em;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.2;
+}
+
+p {
+  line-height: 2em;
+  margin: 1.5em 0;
+}
+
+/* LIMIT # OF CHARACTERS PER LINE */
+p {
+  max-width: 40em;
+}
+
+/* HORIZONTAL LINE */
+hr {
+  border: 0;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* TYPE SPECIMEN */
+.headline {
+  font-family: "Kaisei Opti";
+  font-weight: bold;
+  font-size: 4em;
+  line-height: 1;
+  margin: 0;
+  color: #69bf64;
+}
+
+.subheadline {
+  font-weight: normal;
+  font-size: 2.5em;
+  margin: 0.25em 0;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* HELPERS */
+/* BUTTONS */
+.button {
+  display: inline-block;
+  background-color: #69bf64;
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: #418b3d;
+}
+
+body {
+  background: white;
 }

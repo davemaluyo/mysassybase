@@ -1,6 +1,21 @@
-$color-background: orange;
+/* GLOBAL RESETS */
+* {box-sizing: border-box;}
 
+// VARIABLES
+$color-background: white;
+$color-text-body: rgba(0,0,0,.8);
+$color-text-headings: rgba(0,0,0,1);
+$color-accent: #69bf64;
+$color-accent-dark: #418b3d;
+
+$font-family-sans: 'Inter', sans-serif;
+$font-family-serif: 'Kaisei Opti', serif;
+
+
+// IMPORTS
 @import "partials/toc";
+@import "partials/typography";
+@import "partials/buttons";
 
 body {
   background: $color-background;
