@@ -1,4 +1,6 @@
-$color-background: #ffae0e;
+$color-background: orange;
+
+@import "partials/toc";
 
 body {
   background: $color-background;
