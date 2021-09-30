@@ -38,7 +38,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0.5em 0;
+  margin: 0 0 0.5em 0;
 }
 
 /* TYPOGRAPHIC SCALE (TRADITIONAL) */
@@ -105,6 +105,39 @@ hr {
   background-color: #418b3d;
 }
 
+/* responsive images */
+img {
+  max-width: 100%;
+}
+
+/* body reset */
+body {
+  margin: 0;
+}
+
+/* container */
+.container {
+  background: lightgoldenrodyellow;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+/* media queries */
+/* RESPONSIVE TYPOGRAPHY */
+body {
+  font-size: 87.5%;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 100%;
+  }
+}
+@media (min-width: 1050px) {
+  body {
+    font-size: 112.5%;
+  }
+}
 body {
   background: white;
 }
