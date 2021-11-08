@@ -22,7 +22,8 @@ $breakpoint-large: 1250px;
 @import "partials/typography";
 @import "partials/buttons";
 @import "partials/media";
-@import "partials/layout"; 
+@import "partials/layout";
+@import "partials/grid";
 
 body {
   background: $color-background;
