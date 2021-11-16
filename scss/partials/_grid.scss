@@ -12,7 +12,8 @@ $gridgap: 2%;
 
     > * {
         margin: ($gridgap / 2);
-        flex-grow: 0;
+        flex-grow: 1;
+        width: 100%;
     }
 
     &.centered { justify-content: center; }
