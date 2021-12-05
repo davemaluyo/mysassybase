@@ -103,6 +103,19 @@ hr {
   color: rgba(0, 0, 0, 0.8);
 }
 
+/* SECTION HEADING */
+.section-heading {
+  font-size: 1em;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 5px solid #69bf64;
+  display: table;
+  padding: 0 0 0.5em 0;
+  margin: 1em auto 3em auto;
+}
+
 /* HELPERS */
 /* BUTTONS */
 .button {
@@ -131,6 +144,7 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1000px;
+  padding: 0 1em;
 }
 
 /* media queries */
@@ -268,7 +282,20 @@ body {
 
 /* HERO SECTION */
 .hero {
-  background-color: #69bf64;
+  background-color: #b3d1b2;
+  text-align: center;
+  padding: 6em 0;
+}
+.hero h1 {
+  margin-bottom: 0.25em;
+}
+.hero p {
+  margin: 1em auto;
+}
+
+/* SECTION HEADING */
+.section-heading {
+  font-size: 1em;
 }
 
 body {

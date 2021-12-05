@@ -23,6 +23,10 @@ $gridgap: 2%;
 
     @media (min-width: $breakpoint-small) {
 
+        > * {
+            flex-grow: 0;  
+        }
+
     .one-whole { width: 100% - $gridgap; }
     .one-half { width: 50% - $gridgap; }
     .one-third { width: 33.3333% - $gridgap; }

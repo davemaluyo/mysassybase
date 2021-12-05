@@ -29,5 +29,19 @@
 
 /* HERO SECTION */
 .hero {
-    background-color: #69bf64;
+    background-color: $color-accent-light;
+    text-align: center;
+    padding: 6em 0;
+
+    h1 {
+        margin-bottom: .25em;
+    }
+    p {
+        margin: 1em auto;
+    }
+}
+
+/* SECTION HEADING */
+.section-heading {
+    font-size: 1em;
 }
