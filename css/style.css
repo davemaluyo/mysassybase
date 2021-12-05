@@ -278,6 +278,11 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
+.site-nav a {
+  display: inline-block;
+  padding: 1em;
+  line-height: 1;
+}
 
 /* HERO SECTION */
 .hero {
